@@ -58,7 +58,7 @@ export default function Home() {
     return (
         <Container>
             <GameBox>
-                <Title>僕の漢字ゲーム</Title>
+                <Title>漢字ゲーム</Title>
                 <GameScreen>
                     <Kanji>{bigText}</Kanji>
                     <Hiragana>{smallText}</Hiragana>
