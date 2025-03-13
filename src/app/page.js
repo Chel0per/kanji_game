@@ -1,95 +1,70 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
+
+import { Container,GameBox,GameScreen,Title,Hiragana,Kanji,Button} from "./styles"
+import { useState } from "react";
+import data from "./output";
 
 export default function Home() {
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+    const [buttonText, setButtonText] = useState("Start");
+    const [bigText,setBigText] = useState("Start the game!");
+    const [smallText,setSmallText] = useState("");
+    const [gameState,setGameState] = useState("Start");
+    const [gameRound,setGameRound] = useState(0);
+    const [kanjis,setKanjis] = useState(data);
+
+    function shuffleArray(array) {
+        let shuffled = [...array]; 
+        for (let i = shuffled.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+
+    function handleButton(info) {
+        if (gameState == "Start") {
+            setBigText(info[gameRound].english);
+            setGameState("Writing");
+            setButtonText("Answer");
+        } else if (gameState == "Writing") {
+            setBigText(info[gameRound].kanji);
+            setSmallText(info[gameRound].hiragana);
+            setGameState("Answer");
+            setButtonText("Next");
+            setGameRound(gameRound + 1);
+        } else if (gameState == "Answer") {
+            if (gameRound < 199){
+                setBigText(info[gameRound].english);
+                setSmallText("");
+                setGameState("Writing");
+                setButtonText("Answer");
+            }
+            else {
+                setBigText("Completed!");
+                setSmallText("");
+                setGameState("Finished");
+                setButtonText("Refresh");
+            }
+        } else if (gameState == "Finished") {
+            setBigText("Start the game!");
+            setGameState("Start");
+            setGameRound(0);
+            setButtonText("Start");
+            setKanjis(shuffleArray(kanjis));
+        }
+    }
+
+    return (
+        <Container>
+            <GameBox>
+                <Title>僕の漢字ゲーム</Title>
+                <GameScreen>
+                    <Kanji>{bigText}</Kanji>
+                    <Hiragana>{smallText}</Hiragana>
+                </GameScreen>
+                <Button onClick={() => handleButton(kanjis)}>{buttonText}</Button>                
+            </GameBox>        
+        </Container>
+    );
 }
