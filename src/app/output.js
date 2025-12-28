@@ -998,6 +998,511 @@ const data = [
         "kanji": "品物",
         "hiragana": "しなもの",
         "english": "goods"
+    },
+    {
+        "kanji": "特別",
+        "hiragana": "とくべつ",
+        "english": "special"
+    },
+    {
+        "kanji": "興味",
+        "hiragana": "きょうみ",
+        "english": "interest"
+    },
+    {
+        "kanji": "妻",
+        "hiragana": "つま",
+        "english": "wife"
+    },
+    {
+        "kanji": "競争",
+        "hiragana": "きょうそう",
+        "english": "competition"
+    },
+    {
+        "kanji": "自信",
+        "hiragana": "じしん",
+        "english": "confidence"
+    },
+    {
+        "kanji": "魔法",
+        "hiragana": "まほ",
+        "english": "magic"
+    },
+    {
+        "kanji": "音",
+        "hiragana": "おと",
+        "english": "sound"
+    },
+    {
+        "kanji": "橋",
+        "hiragana": "はし",
+        "english": "bridge"
+    },
+    {
+        "kanji": "郵便局",
+        "hiragana": "ゆうびんきょく",
+        "english": "post office"
+    },
+    {
+        "kanji": "歴史",
+        "hiragana": "れきし",
+        "english": "history"
+    },
+    {
+        "kanji": "失敗",
+        "hiragana": "しっぱい",
+        "english": "failure"
+    },
+    {
+        "kanji": "革",
+        "hiragana": "かわ",
+        "english": "leather"
+    },
+    {
+        "kanji": "味方",
+        "hiragana": "みかた",
+        "english": "ally"
+    },
+    {
+        "kanji": "戸",
+        "hiragana": "と",
+        "english": "door"
+    },
+    {
+        "kanji": "笑顔",
+        "hiragana": "えがお",
+        "english": "smile"
+    },
+    {
+        "kanji": "水族館",
+        "hiragana": "すいぞくかん",
+        "english": "aquarium"
+    },
+    {
+        "kanji": "庭",
+        "hiragana": "にわ",
+        "english": "garden"
+    },
+    {
+        "kanji": "靴下",
+        "hiragana": "くつした",
+        "english": "socks"
+    },
+    {
+        "kanji": "屋上",
+        "hiragana": "おくじょう",
+        "english": "rooftop"
+    },
+    {
+        "kanji": "玄関",
+        "hiragana": "げんかん",
+        "english": "entry hall"
+    },
+    {
+        "kanji": "飛行機",
+        "hiragana": "ひこうき",
+        "english": "airplane"
+    },
+    {
+        "kanji": "値段",
+        "hiragana": "ねだん",
+        "english": "price"
+    },
+    {
+        "kanji": "経済",
+        "hiragana": "けいざい",
+        "english": "economy"
+    },
+    {
+        "kanji": "歯",
+        "hiragana": "は",
+        "english": "teeth"
+    },
+    {
+        "kanji": "紹介",
+        "hiragana": "しょうかい",
+        "english": "introduction"
+    },
+    {
+        "kanji": "波",
+        "hiragana": "なみ",
+        "english": "wave"
+    },
+    {
+        "kanji": "太陽",
+        "hiragana": "たいよう",
+        "english": "sun"
+    },
+    {
+        "kanji": "警察",
+        "hiragana": "けいさつ",
+        "english": "police"
+    },
+    {
+        "kanji": "血",
+        "hiragana": "ち",
+        "english": "blood"
+    },
+    {
+        "kanji": "運動",
+        "hiragana": "うんどう",
+        "english": "exercise"
+    },
+    {
+        "kanji": "選択",
+        "hiragana": "せんたく",
+        "english": "choice"
+    },
+    {
+        "kanji": "人類",
+        "hiragana": "じんるい",
+        "english": "humanity"
+    },
+    {
+        "kanji": "鼻",
+        "hiragana": "はな",
+        "english": "nose"
+    },
+    {
+        "kanji": "進化",
+        "hiragana": "しんか",
+        "english": "evolution"
+    },
+    {
+        "kanji": "市民",
+        "hiragana": "しみん",
+        "english": "citizen"
+    },
+    {
+        "kanji": "博物館",
+        "hiragana": "はくぶつかん",
+        "english": "museum"
+    },
+    {
+        "kanji": "舌",
+        "hiragana": "した",
+        "english": "tongue"
+    },
+    {
+        "kanji": "雲",
+        "hiragana": "くも",
+        "english": "cloud"
+    },
+    {
+        "kanji": "翻訳",
+        "hiragana": "ほんやく",
+        "english": "translation"
+    },
+    {
+        "kanji": "現金",
+        "hiragana": "げんきん",
+        "english": "cash"
+    },
+    {
+        "kanji": "参加",
+        "hiragana": "さんか",
+        "english": "participation"
+    },
+    {
+        "kanji": "開始",
+        "hiragana": "かいしゃ",
+        "english": "start"
+    },
+    {
+        "kanji": "技術",
+        "hiragana": "ぎじゅつ",
+        "english": "technology"
+    },
+    {
+        "kanji": "袋",
+        "hiragana": "ぶくろ",
+        "english": "bag"
+    },
+    {
+        "kanji": "刑務所",
+        "hiragana": "けいむしょ",
+        "english": "prison"
+    },
+    {
+        "kanji": "選挙",
+        "hiragana": "せんきょう",
+        "english": "election"
+    },
+    {
+        "kanji": "肩",
+        "hiragana": "かた",
+        "english": "shoulder"
+    },
+    {
+        "kanji": "戦略",
+        "hiragana": "せんりゃく",
+        "english": "strategy"
+    },
+    {
+        "kanji": "寝坊",
+        "hiragana": "ねぼう",
+        "english": "oversleep"
+    },
+    {
+        "kanji": "鍵",
+        "hiragana": "かぎ",
+        "english": "key"
+    },
+    {
+        "kanji": "危険",
+        "hiragana": "きけん",
+        "english": "danger"
+    },
+    {
+        "kanji": "油",
+        "hiragana": "あぶら",
+        "english": "oil"
+    },
+    {
+        "kanji": "船",
+        "hiragana": "ふね",
+        "english": "boat"
+    },
+    {
+        "kanji": "書類",
+        "hiragana": "しょるい",
+        "english": "document"
+    },
+    {
+        "kanji": "旅券",
+        "hiragana": "りょけん",
+        "english": "passport"
+    },
+    {
+        "kanji": "砂漠",
+        "hiragana": "さばく",
+        "english": "desert"
+    },
+    {
+        "kanji": "壁",
+        "hiragana": "かべ",
+        "english": "wall"
+    },
+    {
+        "kanji": "新幹線",
+        "hiragana": "しんかんせん",
+        "english": "bullet train"
+    },
+    {
+        "kanji": "温泉",
+        "hiragana": "おんせん",
+        "english": "hot spring"
+    },
+    {
+        "kanji": "工具",
+        "hiragana": "こうぐ",
+        "english": "tool"
+    },
+    {
+        "kanji": "四角",
+        "hiragana": "しかく",
+        "english": "square"
+    },
+    {
+        "kanji": "箱",
+        "hiragana": "はこ",
+        "english": "box"
+    },
+    {
+        "kanji": "歩道",
+        "hiragana": "ほどう",
+        "english": "sidewalk"
+    },
+    {
+        "kanji": "運転手",
+        "hiragana": "うんてんしゅ",
+        "english": "driver"
+    },
+    {
+        "kanji": "自然",
+        "hiragana": "しぜん",
+        "english": "nature"
+    },
+    {
+        "kanji": "穴",
+        "hiragana": "あな",
+        "english": "hole"
+    },
+    {
+        "kanji": "雪",
+        "hiragana": "ゆき",
+        "english": "snow"
+    },
+    {
+        "kanji": "下着",
+        "hiragana": "したぎ",
+        "english": "underwear"
+    },
+    {
+        "kanji": "石鹸",
+        "hiragana": "せっけん",
+        "english": "soap"
+    },
+    {
+        "kanji": "計画",
+        "hiragana": "けいかく",
+        "english": "plan"
+    },
+    {
+        "kanji": "床",
+        "hiragana": "ゆか",
+        "english": "floor"
+    },
+    {
+        "kanji": "招待",
+        "hiragana": "しょうたい",
+        "english": "invitation"
+    },
+    {
+        "kanji": "墓地",
+        "hiragana": "ぼち",
+        "english": "cemetery"
+    },
+    {
+        "kanji": "魂",
+        "hiragana": "たましい",
+        "english": "soul"
+    },
+    {
+        "kanji": "海賊",
+        "hiragana": "かいぞく",
+        "english": "pirate"
+    },
+    {
+        "kanji": "夢",
+        "hiragana": "ゆめ",
+        "english": "dream"
+    },
+    {
+        "kanji": "助手",
+        "hiragana": "じょしゅ",
+        "english": "assistant"
+    },
+    {
+        "kanji": "会議",
+        "hiragana": "かいぎ",
+        "english": "meeting"
+    },
+    {
+        "kanji": "未知",
+        "hiragana": "みち",
+        "english": "unknown"
+    },
+    {
+        "kanji": "事務所",
+        "hiragana": "じむしょ",
+        "english": "office"
+    },
+    {
+        "kanji": "食料品",
+        "hiragana": "しょくりょうひん",
+        "english": "groceries"
+    },
+    {
+        "kanji": "鎧",
+        "hiragana": "よろい",
+        "english": "armor"
+    },
+    {
+        "kanji": "発音",
+        "hiragana": "はつおん",
+        "english": "pronunciation"
+    },
+    {
+        "kanji": "闇",
+        "hiragana": "やみ",
+        "english": "darkness"
+    },
+    {
+        "kanji": "病気",
+        "hiragana": "びょうき",
+        "english": "sickness"
+    },
+    {
+        "kanji": "趣味",
+        "hiragana": "しゅみ",
+        "english": "hobby"
+    },
+    {
+        "kanji": "相談",
+        "hiragana": "そうだん",
+        "english": "discussion"
+    },
+    {
+        "kanji": "夫",
+        "hiragana": "おっと",
+        "english": "husband"
+    },
+    {
+        "kanji": "意見",
+        "hiragana": "いけん",
+        "english": "opinion"
+    },
+    {
+        "kanji": "作家",
+        "hiragana": "作家",
+        "english": "writer"
+    },
+    {
+        "kanji": "詩",
+        "hiragana": "うた",
+        "english": "poem"
+    },
+    {
+        "kanji": "自主",
+        "hiragana": "じしゅ",
+        "english": "independence"
+    },
+    {
+        "kanji": "妊娠中",
+        "hiragana": "にんしんちゅう",
+        "english": "pregnant"
+    },
+    {
+        "kanji": "無料",
+        "hiragana": "むりょう",
+        "english": "free"
+    },
+    {
+        "kanji": "有名",
+        "hiragana": "ゆうめい",
+        "english": "famous"
+    },
+    {
+        "kanji": "普通",
+        "hiragana": "ふつう",
+        "english": "usually"
+    },
+    {
+        "kanji": "爪",
+        "hiragana": "つめ",
+        "english": "nail"
+    },
+    {
+        "kanji": "噓",
+        "hiragana": "うそ",
+        "english": "lie"
+    },
+    {
+        "kanji": "真実",
+        "hiragana": "しんじつ",
+        "english": "truth"
+    },
+    {
+        "kanji": "関係",
+        "hiragana": "かんけい",
+        "english": "relationship"
+    },
+    {
+        "kanji": null,
+        "hiragana": null,
+        "english": null
     }
 ]
 
