@@ -1498,11 +1498,6 @@ const data = [
         "kanji": "関係",
         "hiragana": "かんけい",
         "english": "relationship"
-    },
-    {
-        "kanji": null,
-        "hiragana": null,
-        "english": null
     }
 ]
 
