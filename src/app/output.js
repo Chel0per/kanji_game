@@ -1206,7 +1206,7 @@ const data = [
     },
     {
         "kanji": "開始",
-        "hiragana": "かいしゃ",
+        "hiragana": "かいし",
         "english": "start"
     },
     {
@@ -1446,7 +1446,7 @@ const data = [
     },
     {
         "kanji": "作家",
-        "hiragana": "作家",
+        "hiragana": "さっか",
         "english": "writer"
     },
     {
@@ -1498,6 +1498,256 @@ const data = [
         "kanji": "関係",
         "hiragana": "かんけい",
         "english": "relationship"
+    },
+    {
+        "kanji": "発明",
+        "hiragana": "はつめい",
+        "english": "invention"
+    },
+    {
+        "kanji": "観光客",
+        "hiragana": "かんこうきゃく",
+        "english": "tourist"
+    },
+    {
+        "kanji": "借金",
+        "hiragana": "しゃっきん",
+        "english": "debt"
+    },
+    {
+        "kanji": "集中",
+        "hiragana": "しゅうちゅう",
+        "english": "concentration"
+    },
+    {
+        "kanji": "記憶",
+        "hiragana": "きおく",
+        "english": "memory"
+    },
+    {
+        "kanji": "胸",
+        "hiragana": "むね",
+        "english": "chest"
+    },
+    {
+        "kanji": "地階",
+        "hiragana": "ちかい",
+        "english": "basement"
+    },
+    {
+        "kanji": "鐘",
+        "hiragana": "かね",
+        "english": "bell"
+    },
+    {
+        "kanji": "休暇",
+        "hiragana": "きゅうか",
+        "english": "vacation"
+    },
+    {
+        "kanji": "城",
+        "hiragana": "しろ",
+        "english": "castle"
+    },
+    {
+        "kanji": "船長",
+        "hiragana": "せんちょう",
+        "english": "captain"
+    },
+    {
+        "kanji": "薬剤師",
+        "hiragana": "やくざいし",
+        "english": "pharmacist"
+    },
+    {
+        "kanji": "返金",
+        "hiragana": "へんきん",
+        "english": "refund"
+    },
+    {
+        "kanji": "汗",
+        "hiragana": "あせ",
+        "english": "sweat"
+    },
+    {
+        "kanji": "退職",
+        "hiragana": "たいしょく",
+        "english": "retirement"
+    },
+    {
+        "kanji": "骨",
+        "hiragana": "ほね",
+        "english": "bone"
+    },
+    {
+        "kanji": "攻撃",
+        "hiragana": "こうげき",
+        "english": "attack"
+    },
+    {
+        "kanji": "文法",
+        "hiragana": "ぶんぽう",
+        "english": "grammar"
+    },
+    {
+        "kanji": "平均",
+        "hiragana": "へいきん",
+        "english": "average"
+    },
+    {
+        "kanji": "点",
+        "hiragana": "てん",
+        "english": "point"
+    },
+    {
+        "kanji": "傘",
+        "hiragana": "かさ",
+        "english": "umbrella"
+    },
+    {
+        "kanji": "不可能",
+        "hiragana": "ふかのう",
+        "english": "impossible"
+    },
+    {
+        "kanji": "目的",
+        "hiragana": "もくてき",
+        "english": "purpose"
+    },
+    {
+        "kanji": "動詞",
+        "hiragana": "どうし",
+        "english": "verb"
+    },
+    {
+        "kanji": "軍",
+        "hiragana": "ぐん",
+        "english": "army"
+    },
+    {
+        "kanji": "肌",
+        "hiragana": "はだ",
+        "english": "skin"
+    },
+    {
+        "kanji": "機械",
+        "hiragana": "きかい",
+        "english": "machine"
+    },
+    {
+        "kanji": "秘密",
+        "hiragana": "ひみつ",
+        "english": "secret"
+    },
+    {
+        "kanji": "設定",
+        "hiragana": "せってい",
+        "english": "setting"
+    },
+    {
+        "kanji": "必要",
+        "hiragana": "ひつよう",
+        "english": "need"
+    },
+    {
+        "kanji": "努力",
+        "hiragana": "どりょく",
+        "english": "effort"
+    },
+    {
+        "kanji": "空間",
+        "hiragana": "くうかん",
+        "english": "space"
+    },
+    {
+        "kanji": "雷",
+        "hiragana": "かみなり",
+        "english": "lightning"
+    },
+    {
+        "kanji": "意地悪",
+        "hiragana": "いじわる",
+        "english": "mean"
+    },
+    {
+        "kanji": "運命",
+        "hiragana": "うんめい",
+        "english": "destiny"
+    },
+    {
+        "kanji": "仮眠",
+        "hiragana": "かみん",
+        "english": "nap"
+    },
+    {
+        "kanji": "道路",
+        "hiragana": "どうろ",
+        "english": "road"
+    },
+    {
+        "kanji": "影",
+        "hiragana": "かげ",
+        "english": "shadow"
+    },
+    {
+        "kanji": "字幕",
+        "hiragana": "じまく",
+        "english": "subtitle"
+    },
+    {
+        "kanji": "熱",
+        "hiragana": "ねつ",
+        "english": "heat"
+    },
+    {
+        "kanji": "鉄",
+        "hiragana": "てつ",
+        "english": "iron"
+    },
+    {
+        "kanji": "交通",
+        "hiragana": "こうつう",
+        "english": "traffic"
+    },
+    {
+        "kanji": "卵",
+        "hiragana": "たまご",
+        "english": "egg"
+    },
+    {
+        "kanji": "像",
+        "hiragana": "ぞう",
+        "english": "statue"
+    },
+    {
+        "kanji": "偶然",
+        "hiragana": "ぐうぜん",
+        "english": "coincidence"
+    },
+    {
+        "kanji": "素敵",
+        "hiragana": "すてき",
+        "english": "lovely"
+    },
+    {
+        "kanji": "公共",
+        "hiragana": "こうきょう",
+        "english": "public"
+    },
+    {
+        "kanji": "速度",
+        "hiragana": "そくど",
+        "english": "speed"
+    },
+    {
+        "kanji": "相互",
+        "hiragana": "そうご",
+        "english": "mutual"
+    },
+    {
+        "kanji": "応募者",
+        "hiragana": "おうぼしゃ",
+        "english": "applicant"
     }
 ]
 
