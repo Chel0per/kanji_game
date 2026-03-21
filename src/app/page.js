@@ -34,7 +34,7 @@ export default function Home() {
             setButtonText("Next");
             setGameRound(gameRound + 1);
         } else if (gameState == "Answer") {
-            if (gameRound < 199){
+            if (gameRound < info.length - 1){
                 setBigText(info[gameRound].english);
                 setSmallText("");
                 setGameState("Writing");
